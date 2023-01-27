@@ -2,18 +2,18 @@
     display: flex;
     justify-content: center;
 }
-.row .column{
+.row .col-sm-1, .col-sm-2, .col-sm-4, .col-sm-12{
     margin: 20px;
 }
-.row .column .col-sm-1{
+.row .col-sm-1 .col-sm{
     width: 300px;
 }
-.row .column .col-sm-2{
+.row .col-sm-2 .col-sm{
     width: 300px;
 }
-.row .column .col-sm-3{
+.row .col-sm-4 .col-sm{
     width: 300px;
 }
-.row .column .col-sm-4{
+.row .col-sm-12 .col-sm{
     width: 300px;
 }
